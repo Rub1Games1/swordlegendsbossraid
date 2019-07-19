@@ -1,6 +1,7 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'nokogiri'
-gem 'rails', '3.0.0.beta3'
-gem 'rack',  '>=1.0'
-gem 'thin',  '~>1.1'
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
